@@ -1,23 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AON School</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-    <h1>hellow</h1>
+  <body>
+    <section id="menubar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="images/ICON/Logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Others</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            <div class="button ms-3">
+              <button class="btn btn-primary btn-signIn border-0">
+                Sing in
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
 
+    <section id="hero" class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="are-you">Are you ready to Learn?</p>
+            <h1>
+              Learn With fun <br />
+              on <span class="any">any schedule</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius
+              blandit facilisis quam netus.
+            </p>
+            <button class="btn btn-primary btn-signIn border-0">
+              Get Started
+            </button>
+          </div>
+          <div class="col-md-4">
+            <img
+              class="first-image"
+              src="images/Photos/Illustration.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="features" class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box text-center p-2">
+              <img class="mb-4" src="images/ICON/book.png" alt="" />
+              <h5>1500+ Topic</h5>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box text-center p-2">
+              <img class="mb-4" src="images/ICON/Student.png" alt="" />
+              <h5>1800+ Students</h5>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box text-center p-2">
+              <img class="mb-4" src="images/ICON/Test.png" alt="" />
+              <h5>9K+ Test Token</h5>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box text-center p-2">
+              <img class="mb-4" src="images/ICON/Students.png" alt="" />
+              <h5>2000+ Student</h5>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="online-course container">
+      <div class="d-flex justify-content-center pb-5">
+        <h3>Online Courses</h3>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mordern physcology</h5>
+              <p class="card-text">Designation</p>
+              <button class="btn btn-primary btn-signIn border-0">Buy Course</button>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/ICON/calendar.png" alt="">
+                <small class="text-muted">Start20 April,2021</small>
 
+                  </div>
+                  <div class="col-6 d-flex justify-content-end">
+                    <img src="images/ICON/people.png" alt="">
+                <small class="text-muted">60 seats</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mordern physcology</h5>
+              <p class="card-text">Designation</p>
+              <button class="btn btn-primary btn-signIn border-0">Buy Course</button>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/ICON/calendar.png" alt="">
+                <small class="text-muted">Start20 April,2021</small>
+
+                  </div>
+                  <div class="col-6 d-flex justify-content-end">
+                    <img src="images/ICON/people.png" alt="">
+                <small class="text-muted">60 seats</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mordern physcology</h5>
+              <p class="card-text">Designation</p>
+              <button class="btn btn-primary btn-signIn border-0">Buy Course</button>
+              <div class="card-footer">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="images/ICON/calendar.png" alt="">
+                <small class="text-muted">Start20 April,2021</small>
+
+                  </div>
+                  <div class="col-6 d-flex justify-content-end">
+                    <img src="images/ICON/people.png" alt="">
+                <small class="text-muted">60 seats</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial container pb-5">
+      <div class="d-flex justify-content-center py-5">
+        <h3>Testimonial</h3>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-2">
+          <img class="nasif-pic" src="images/Photos/aonnasif.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <p>There are many variations of passages of Lorem Ipsum available, but the
+            majority have suffered alteration in some form, by injected humour, 
+           or randomised words which don't look even slightly believable.</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="last-sec">
+      <div class="row pt-5 px-5 d-flex align-items-center d-flex justify-content-center">
+        <div class="col-3">
+          <p>Millions of people of all ages and from around
+          the world are improving their lives with us</p>
+        </div>
   
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-</body>
+        <div class="col-3">
+          <ul>
+            <b>Course</b>
+            <li>Graphic Design</li>
+            <li>Web Design</li>
+            <li>Business</li>
+            <li>Marketing</li>
+            <li>Egineering</li>
+          </ul>
+        </div>
+  
+        <div class="col-3">
+          <ul>
+            <b>Terms</b>
+            <li>Graphic Design</li>
+            <li>Web Design</li>
+            <li>Business</li>
+            <li>Marketing</li>
+            <li>Egineering</li>
+          </ul>
+        </div>
+  
+        <div class="col-3">
+          <ul>
+            <b>Useful Link</b>
+            <li>Graphic Design</li>
+            <li>Web Design</li>
+            <li>Business</li>
+            <li>Marketing</li>
+            <li>Egineering</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer d-flex justify-content-center">
+      <p style="color: gray;">Copyright © 2020 Iftakher-mahmud.com</p>
+    </div>
+
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
